@@ -1,0 +1,44 @@
+{
+  "name": "my-divjoy-project",
+  "version": "0.1.0",
+  "private": true,
+  "keywords": [
+    "divjoy"
+  ],
+  "description": "Built with Divjoy, a React codebase generator. You must purchase a license at https://divjoy.com?ref=cs in order to use any of the code in this project.",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "next": "10.0.5",
+    "react-hook-form": "6.15.1",
+    "@material-ui/core": "4.11.3",
+    "@material-ui/icons": "4.11.2",
+    "@material-ui/lab": "4.0.0-alpha.57",
+    "use-dark-mode": "2.3.1",
+    "query-string": "6.13.8",
+    "firebase": "8.2.5",
+    "mailchimp-api-v3": "1.14.0",
+    "analytics": "0.3.1",
+    "@analytics/google-analytics": "0.2.2"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
